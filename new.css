@@ -1,0 +1,164 @@
+/*NAV-BAR BACKGROUND IMAGE */
+.top_bg {
+    background-image: url(../images/Group\ 82.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container_fluid{
+    --bs-gutter-x: 0 !important;
+  
+  }
+  .content5 {
+    padding: 60px 0 0 0;
+    width: 90%;
+  }
+  .robin_button{
+    background-color: hsl(0, 0%, 73%) !important;
+    min-width: 225px !important;
+height: 225px !important;    
+  
+  }
+  .robin_button:hover {
+    background-color: white !important;
+    color: rgb(181 213 36) !important;
+    transform: scale(1.1)  !important;
+
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2) !important;
+}
+  .card {
+    background-color: #ffffff !important; 
+    color: rgb(0, 0, 0);
+   
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out !important;
+  }
+  
+  /* Active card style */
+  .card.active {
+    background-color: #435fd9 !important;
+    color: #343a40; 
+  }
+.text_chemolion{
+  color: aliceblue;
+}
+  
+  
+  
+  .font {
+  
+    padding-top: 90px;
+    letter-spacing: 1px;
+  }
+  
+  
+  .slick {
+    padding: 10px 25px;
+  
+  }
+  
+  .dolor {
+    background-color: rgb(52, 52, 188);
+  }
+  
+  .logo {
+    height: 50px !important;
+    width: 55px !important;
+  }
+  
+  .coma {
+    color: chartreuse;
+    height: 200rem;
+    font-size: 2rem;
+  }
+  
+  
+  
+  /* NAV BACKGROUND */
+  .nav_bg {
+    background-color: rgb(116 139 225);
+    
+  
+  }
+  /*BUTTON*/
+  
+  .btn_bg {
+    background-color: rgb(180, 213, 34);
+    border-radius: 50px;
+    border-color: rgb(240, 248, 255);
+    cursor: pointer;
+    padding: 0.5em 2em;
+    font-size: 0.8rem;
+    width: auto;
+    max-width: 100%;
+    box-shadow:5px 5px 7px rgb(107 136 255);
+    transition:step-start(1.5s)ease-in-out;
+  }
+  /*  */
+  .background_image_1 {
+    background-color: rgb(217, 227, 253);
+    background-image: url(../images/B\ 1.png),url(../images/B\ 2.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 150px 75px;
+    background-position: 95% 4%,10% 42%;
+  
+  }
+  .background_img_2{
+    background-image: url(../images/B-hybrid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 90px;
+  
+  }
+  
+  .bg_section_2 {
+    background-color: rgb(217, 227, 253);
+  }
+  
+  .over_lap_crousal{
+    z-index: 1;
+    position: relative;
+    bottom: 92px;
+  
+  }
+  
+  .accordion{
+    width: 77%;
+  }
+
+  .over_lap{
+    z-index: 1;
+    position: relative;
+    top: 70px;
+   
+  }
+  .bgfoot{
+      background-color: rgb(25, 33, 53);
+  }
+  .foot-lin{
+  color: gainsboro;
+        text-decoration: none !important;
+  }
+  .accordion-button::after {
+  display: none; 
+  }
+      .over_lap_3{
+        z-index: 1;
+        position: relative;
+        bottom: 70px;
+      }
+     
+      @media screen and (min-device-width: 769px) and (max-device-width: 1345px) { 
+        .robin_button{
+            background-color: hsl(0, 0%, 73%) !important;
+            min-width: 155px !important;
+        height: 150px !important;    
+          
+          }
+    }
+    @media  screen and (min-device-width: 320px) and (max-device-width:766) {
+      .text_chemolion{
+        color: aliceblue !important;
+      }
+      
+    }
